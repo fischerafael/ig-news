@@ -10,12 +10,14 @@ export const Header = () => {
         h="15vh"
         maxW="container.md"
       >
-        <HStack spacing="16">
+        <HStack spacing="16" h="full">
           <Flex>
             <Text fontWeight="bold">ig.news</Text>
           </Flex>
-          <HStack spacing="8">
-            <Link href="/">Home</Link>
+          <HStack spacing="8" h="full">
+            <Link href="/" color="blue.100">
+              Home
+            </Link>
             <Link href="/">Posts</Link>
           </HStack>
         </HStack>
